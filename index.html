@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>마케팅·커머스 기록</title>
+    <meta
+      name="description"
+      content="한국 커머스 환경에서 ‘클릭/재미/유입’이 만들어지는 방식을 기록합니다."
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="inner">
+        <a class="brand" href="/">
+          <div class="logo" aria-hidden="true"></div>
+          <strong>마케팅·커머스 기록</strong>
+        </a>
+        <nav class="nav" aria-label="주요 메뉴">
+          <a class="pill" href="posts/">글</a>
+          <a class="pill" href="about.html">소개</a>
+          <a class="pill" href="privacy.html">정책</a>
+          <a class="pill" href="contact.html">문의</a>
+        </nav>
+      </div>
+    </div>
+
+    <main class="wrap">
+      <section class="card pad" style="margin-top: 18px">
+        <h1>사람들은 왜 ‘신기한 물건’을 클릭하는가</h1>
+        <p class="lead">
+          이 사이트는 상품을 설득하기보다, 쇼츠/플랫폼에서 ‘재미’와 ‘클릭’이
+          만들어지는 조건을 설명합니다. 글은 맥락(구조)·기준(판단)·관찰(현장
+          기록)로 구성됩니다.
+        </p>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap">
+          <span class="pill">맥락 · 플랫폼/포맷 변화</span>
+          <span class="pill">기준 · 판단/해석</span>
+          <span class="pill">관찰 · 현장 기록</span>
+        </div>
+
+        <div
+          style="
+            margin-top: 14px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+          "
+        >
+          <span class="kbd">/</span>
+          <input
+            id="q"
+            placeholder="대표 글 검색: 예) 신기한, 리듬, 관찰"
+            style="
+              flex: 1;
+              min-width: 220px;
+              padding: 10px 12px;
+              border-radius: 999px;
+              border: 1px solid var(--line);
+              background: rgba(255, 255, 255, 0.03);
+              color: var(--text);
+              outline: 0;
+              font-size: 12px;
+            "
+          />
+        </div>
+      </section>
+
+      <section>
+        <div class="section-title">
+          <h2>콘텐츠 구조</h2>
+          <p>정보 사이트로 분류되게 만드는 핵심</p>
+        </div>
+        <div class="grid-3">
+          <div class="card pad">
+            <h2>① 맥락</h2>
+            <p class="lead" style="margin-top: 8px">
+              왜 이런 포맷이 뜨는지, 플랫폼이 무엇을 증폭시키는지.
+            </p>
+          </div>
+          <div class="card pad">
+            <h2>② 기준</h2>
+            <p class="lead" style="margin-top: 8px">
+              클릭/반응을 해석하는 기준, 착시를 거르는 방법.
+            </p>
+          </div>
+          <div class="card pad">
+            <h2>③ 관찰</h2>
+            <p class="lead" style="margin-top: 8px">
+              가설→실행→관찰→수정의 기록(결과 자랑 금지).
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured">
+        <div class="section-title">
+          <h2>대표 글</h2>
+          <p>상품/링크가 아니라 ‘설명’이 먼저</p>
+        </div>
+        <div class="grid-2">
+          <div class="card pad">
+            <div id="featuredList" style="display: grid; gap: 10px"></div>
+          </div>
+          <div class="card pad">
+            <h2>읽는 법</h2>
+            <p class="lead" style="margin-top: 8px">
+              맥락 → 기준 → 관찰 순으로 읽으면 “유행”보다 “원리”가 보입니다.
+            </p>
+            <div
+              style="
+                border-top: 1px solid var(--line);
+                margin-top: 14px;
+                padding-top: 14px;
+                color: var(--muted);
+                font-size: 12px;
+              "
+            >
+              승인 전에는 외부 상업 링크(제휴/링크허브)를 메인에서 노출하지 않는
+              편이 안전합니다.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer">
+        <div>© <span id="year"></span> 마케팅·커머스 기록</div>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap">
+          <a class="pill" href="/about.html">About</a>
+          <a class="pill" href="/privacy.html">Privacy</a>
+          <a class="pill" href="/contact.html">Contact</a>
+        </div>
+      </div>
+    </main>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>
